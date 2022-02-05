@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+            /* navigation bar styling */
+
+nav{
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding:1% 3%;
+    margin: 0%;
+}
+nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 2% 80%;
+}
+
+
+nav .navbar-links ul li{
+    list-style: none;
+    font-weight: bold;
+    padding: 0% 3%;
+}
+
+nav .navbar-links ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav .navbar-links .account a{
+padding-left: 150%;    
+}
+
+/* Landing page Styling */
+.About{
+    padding: 3% 50%;
+}
