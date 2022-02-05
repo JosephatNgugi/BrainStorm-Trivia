@@ -5,17 +5,36 @@
 
             /* navigation bar styling */
 
+body{
+    background-color: rgba(162, 188, 211, 0.734);
+}
 nav{
     display: inline-flex;
+    position: relative;
     flex-wrap: wrap;
     max-width: 100%;
-    padding:1% 15%;
+    padding:1% 10%;
+    width: 80%;
     margin: 0%;
+    background-color: blueviolet;
+}
+nav h1, a{
+    color: black;
+    font-size: xx-large;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav h1 span{
+    color: rgba(119, 6, 6, 0.672);
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 nav ul{
     display: inline-flex;
     justify-content: space-between;
-    padding: 2% 80%;
+    padding: 2% 40%;
 }
 
 
@@ -28,10 +47,11 @@ nav .navbar-links ul li{
 nav .navbar-links ul li a{
     color: black;
     text-decoration: none;
+    font-size: large;
 }
 
 nav .navbar-links .account a{
-padding-left: 150%;    
+padding-left: 250%;    
 }
 
 /* Landing page Styling */
@@ -39,7 +59,7 @@ padding-left: 150%;
     max-width: 100%;
 }
 .About{
-    padding: 3% 5%;
+    padding: 10% 5%;
     margin: 0% 20%;
     text-align: center;
 }
@@ -51,12 +71,12 @@ padding-left: 150%;
 }
 .About p{
     font-size: large;
-    padding: 1%;
+    padding: 5%;
 }
 
 .Team{
     display: inline-flex;
-    padding: 10% 15%;
+    padding: 5% 15%;
     width: 70%;
     text-align: center;
 }
@@ -67,11 +87,13 @@ padding-left: 150%;
 
 .Sponsors{
     display: inline-flex;
-    padding: 1% 5%;
+    padding: 15% 5%;
     width: 90%;
     text-align: center;
 }
 .Sponsors div{
     padding: 2% 2%;
 }
+
+                /* Footer Styling */
 
