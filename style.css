@@ -116,3 +116,14 @@ padding-left: 250%;
 
                 /* Footer Styling */
 
+.footer{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.footer p{
+    padding: 2%;
+    text-align: center;
+    margin-left: 10%;
+    color: red;
+}
