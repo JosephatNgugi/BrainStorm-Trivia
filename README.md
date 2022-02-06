@@ -17,7 +17,7 @@
 * Open the below provided Link to View the page.
 * Enjoy!!
 ## Host Link
-Click on this link to view the live website: 
+Click on this link to view the live website: https://josephatngugi.github.io/BrainStorm-Trivia/
 ## License:
 * MIT License 
 * Copyright (c) [2022] [Josephat Ngugi]
