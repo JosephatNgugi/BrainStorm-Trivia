@@ -74,11 +74,29 @@ padding-left: 250%;
     padding: 5%;
 }
 
+.About a button{
+    color: blanchedalmond;
+    font-size: large;
+    border: none;
+    background-color: rgba(119, 6, 6, 0.672);
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+}
+ .About a button:hover{
+     background-color: rebeccapurple;
+     transition: 0.5s;
+     color: white;
+     font-size: 60%;
+     font-weight: bolder;
+ }
+
 .Team{
     display: inline-flex;
+    position: relative;
     padding: 5% 15%;
     width: 70%;
     text-align: center;
+    background-color: rgba(137, 43, 226, 0.83);
 }
 
 .Team h2, p{
@@ -87,9 +105,10 @@ padding-left: 250%;
 
 .Sponsors{
     display: inline-flex;
-    padding: 15% 5%;
+    padding: 10% 5%;
     width: 90%;
     text-align: center;
+    background-color: rgba(137, 43, 226, 0.638);
 }
 .Sponsors div{
     padding: 2% 2%;
