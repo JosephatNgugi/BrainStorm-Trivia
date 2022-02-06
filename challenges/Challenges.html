@@ -6,19 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenges BrainStorm</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 
 </head>
 <body>
     <nav>
-        <a href="index.html"><h1>Brain<span>Storm</span></h1></a>
-        <div class="links">
+        <a href="../index.html"><h1>Brain<span>Storm</span></h1></a>
+        <div class="navbar-links">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li class="account"><a href="#LOGIN">Login</a></li>
                 <li class="account"><a href="#SIGNUP">Signup</a></li>
             </ul>
         </div>
     </nav>
+
+    <div class="quizes">
+        <form name="challenge" class="challenge">
+           <p>1. What does the Acronym BYOB stand for?</p>
+           <p><input type="radio" name="Quiz1" value="not-correct">Best Year on Board</p>
+           <p><input type="radio" name="Quiz1" value="not-correct">Bring your Own Beer</p>
+           <p><input type="radio" name="Quiz1" value="correct">Be your own Boss</p>
+           <p><input type="radio" name="Quiz1" value="not-correct">Bring Your only Bet</p>
+        </form>
+        <form name="challenge" class="challenge">
+            <p>2. What is the square root of 441?</p>
+            <p><input type="radio" name="Quiz2" value="not-correct">12</p>
+            <p><input type="radio" name="Quiz2" value="not-correct">10.5</p>
+            <p><input type="radio" name="Quiz2" value="correct">21</p>
+            <p><input type="radio" name="Quiz2" value="not-correct">40</p>
+         </form>
+         <form name="challenge" class="challenge">
+            <p>3. Why did the chicken cross the road?</p>
+            <p><input type="radio" name="Quiz3" value="correct">To get to the other side.</p>
+            <p><input type="radio" name="Quiz3" value="not-correct">To run away from the fox.</p>
+            <p><input type="radio" name="Quiz3" value="not-correct">It was hungry.</p>
+            <p><input type="radio" name="Quiz3" value="not-correct">None of the above.</p>
+         </form>
+         <form name="challenge" class="challenge">
+            <p>4. The following women have served as Presidents in their respective African countries except one. Which one?</p>
+            <p><input type="radio" name="Quiz4" value="not-correct">Ivy Matsepe-Cassaburi, South Africa</p>
+            <p><input type="radio" name="Quiz4" value="not-correct">Ellen Johnson Sirleaf, Liberia.</p>
+            <p><input type="radio" name="Quiz4" value="not-correct">Joyce Hilda Banda, Malawi.</p>
+            <p><input type="radio" name="Quiz4" value="correct">Nkosazana Dlamini Zuma, South Africa.</p>
+         </form>
+         <form name="challenge" class="challenge">
+            <p>5. If somebody is an ambivert, that means they?</p>
+            <p><input type="radio" name="Quiz5" value="not-correct">Tend to be more active at night.</p>
+            <p><input type="radio" name="Quiz5" value="correct">Have a balance of introvert and extrovert qualities.</p>
+            <p><input type="radio" name="Quiz5" value="not-correct">Are sensitive to the color green.</p>
+            <p><input type="radio" name="Quiz5" value="not-correct">Were born between 2 PM and 6 PM.</p>
+         </form>
+         <form name="challenge" class="challenge">
+            <p>6. Why was the maths book sad?</p>
+            <p><input type="radio" name="Quiz6" value="not-correct">Seven Ate(Eight) Nine.</p>
+            <p><input type="radio" name="Quiz6" value="correct">It had too many problems.</p>
+            <p><input type="radio" name="Quiz6" value="not-correct">It did not have any cCemistry with History.</p>
+            <p><input type="radio" name="Quiz6" value="not-correct">The kids could not count on it.</p>
+         </form>        <form name="challenge" class="challenge">
+            <p>7. What was the name of the first satellite launched into space?</p>
+            <p><input type="radio" name="Quiz7" value="not-correct">Radarsat.</p>
+            <p><input type="radio" name="Quiz7" value="correct">Sputnik.</p>
+            <p><input type="radio" name="Quiz7" value="not-correct">Telstar.</p>
+            <p><input type="radio" name="Quiz7" value="not-correct">Nutnik.</p>
+         </form>
+         <form name="challenge" class="challenge">
+            <p>8. Notre Dame Cathedral is an example of which type of architecture?</p>
+            <p><input type="radio" name="Quiz8" value="not-correct">Refined.</p>
+            <p><input type="radio" name="Quiz8" value="not-correct">Western.</p>
+            <p><input type="radio" name="Quiz8" value="correct">Gothic.</p>
+            <p><input type="radio" name="Quiz8" value="not-correct">Doric.</p>
+         </form>
+         <form name="challenge" class="challenge">
+            <p>9. The largest Ocean in the world is called?</p>
+            <p><input type="radio" name="Quiz9" value="not-correct">Atlantic Ocean</p>
+            <p><input type="radio" name="Quiz9" value="correct">Pacific Ocean</p>
+            <p><input type="radio" name="Quiz9" value="not-correct">Indian Ocean</p>
+            <p><input type="radio" name="Quiz9" value="not-correct">Arctic Ocean.</p>
+         </form>
+         <form name="challenge" class="challenge">
+            <p>10. Which is the only edible food that never goes bad?</p>
+            <p><input type="radio" name="Quiz10" value="correct">Honey</p>
+            <p><input type="radio" name="Quiz10" value="not-correct">Corn-Bread</p>
+            <p><input type="radio" name="Quiz10" value="not-correct">Sugarcane</p>
+            <p><input type="radio" name="Quiz10" value="not-correct">None of the Above</p>
+         </form>
+
+        <input type="button" value="SUBMIT ANSWERS" onclick="Grade()">
+    </div>
 
     <script defer src="../script.js"></script>
 </body>

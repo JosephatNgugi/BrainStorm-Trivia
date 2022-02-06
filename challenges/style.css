@@ -1,0 +1,40 @@
+nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 2% 180%;
+}
+
+
+nav .navbar-links .account a{
+margin-left: 350%;    
+}
+
+.quizes{
+    display: inline-block;
+    position: relative;
+    
+}
+p:first-child{
+    font-size: larger;
+    color: black;
+    padding:2%;
+}
+
+form{
+    padding: 0% 10%;
+    margin: 3% 45%;
+    width: 50%;
+}
+
+input[type="button"]{
+    padding: 1% 5%;
+    margin: 3% 60%;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+
+input[type="button"]:hover{
+    font-weight: bolder;
+}
